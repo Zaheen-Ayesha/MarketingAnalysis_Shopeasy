@@ -98,4 +98,41 @@ The enriched dataset, now including the sentiment scores, categories, and bucket
 
 The sentiment analysis revealed key customer pain points and areas of satisfaction, allowing for targeted marketing strategies and product enhancements. By combining text analysis with structured data, this step provided a holistic view of customer opinions, significantly boosting the depth of our insights.
 
-__This step demonstrated advanced technical expertise in text analytics, Python programming, and data enrichment, showcasing an ability to translate raw customer feedback into actionable business intelligence.__
+_This step demonstrated advanced technical expertise in text analytics, Python programming, and data enrichment, showcasing an ability to translate raw customer feedback into actionable business intelligence._
+
+### Step 3.  Building an interactive marketing analytics dashboard using Power BI.
+
+In this step we brought our marketing data to life by building an interactive marketing analytics dashboard using Power BI, it involved integrating data from SQL Server into Power BI for analysis, followed by extensive data cleaning, transformation, and modeling to derive actionable insights. 
+The steps included:
+
+#### 1. Data Import and Query Execution
+
+- Data was imported into Power BI using the "Get Data" feature, specifically from SQL Server. This provided access to multiple tables, including customer reviews, customer engagement, and journey data.
+- SQL queries executed directly in SQL Server were reused within Power BI to maintain data integrity and consistency. This ensured that data cleaning and transformation were performed in a controlled manner
+- Additionally, the fact_customer_reviews_with_sentiment.csv file was imported into Power BI to complement the data and provide sentiment insights for the analysis.
+
+#### 2. Data Modeling
+
+- A one-to-many relationship was established between the customer and product tables with the fact_customer_journey, fact_engagement_data, fact_customer_reviews, fact_customer_reviews_with_sentiment tables.
+- The relationship was created based on CustomerID and ProductID, ensuring that each fact table could be properly linked to the customer and product information for detailed analysis.
+- A Calendar table was created using DAX to provide a time dimension for the dataset. This table contained date-related columns like Year, Month, DayOfWeek, Quarter, etc., to support time-based analysis.
+- A relationship was established between the Calendar table and the fact tables (fact_customer_journey, fact_engagement_data, fact_customer_reviews, and fact_customer_reviews_with_sentiment) based on the Date field.
+- This relationship allowed for efficient time-series analysis across various metrics, enabling the analysis of campaign performance and engagement trends over time.
+
+#### 3. DAX Calculations
+
+- Several key performance indicators (KPIs) were calculated using DAX measures to assess campaign performance:
+           - Number of Campaigns: The total count of campaigns being analyzed.
+           - Number Customer Reviews: Count of reviews from customers for each campaign.
+           - Number of Customer Journey: Total number of customer journeys tracked through the campaign lifecycle.
+           - Average Rating: The average rating of products/campaigns based on customer reviews.
+           - Engagement Metrics: Total views, clicks, and likes related to the campaign, derived from customer engagement data.
+           - Conversion Rate: The percentage of customers users who take a desired action, such as making a purchase.
+
+#### 4. Visualizations and Insights:
+
+- Created multiple visualizations in Power BI to identify patterns, trends, and key insights aligned with business goals.
+- Time-series analysis was conducted using the Calendar table to evaluate trends over time, especially for campaign performance metrics like views, clicks, and conversion rates.
+- Data analysis focused on customer sentiment, engagement metrics, and campaign performance, leading to actionable recommendations for strategic decisions
+
+### Results
