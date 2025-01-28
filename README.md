@@ -20,6 +20,8 @@ Understand recurring themes in customer reviews to identify customer pain points
 
 This project demonstrated expertise in integrating data analysis with real-world business problems, delivering impactful recommendations that align with horizontal goals.
 
+
+
 ### Steps Undertaken:
 
 ### Step 1: Data Cleaning and Transformation for Actionable Insights using SQL.
@@ -53,6 +55,7 @@ The Customer Engagement table was normalized by:
 Duplicate records in the Customer Journey table were identified and handled using a Common Table Expression (CTE) with ROW_NUMBER(). Missing durations were imputed with the average duration for the corresponding visit date using the COALESCE function, ensuring data completeness and reliability.
 
 
+
 ### Step 2: Incorporating Sentiment Analysis to Enhance Customer Feedback Insights
 
 In this step deeper insights were derived from customer feedback by performing sentiment analysis. This process involved integrating advanced text analytics techniques with structured data, ensuring a comprehensive understanding of customer sentiments.
@@ -70,19 +73,21 @@ Leveraged the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment 
 
 To refine the sentiment insights, we combined VADER sentiment scores with customer ratings. A custom Python function was developed to classify feedback into categories:
 
-Positive: Strong alignment between positive scores and high ratings.
-Negative: Strong alignment between negative scores and low ratings.
-Neutral: Indicating a balanced or indifferent sentiment.
-Mixed Positive/Mixed Negative: For cases where scores and ratings were not aligned.
+- Positive: Strong alignment between positive scores and high ratings.
+- Negative: Strong alignment between negative scores and low ratings.
+- Neutral: Indicating a balanced or indifferent sentiment.
+- Mixed Positive/Mixed Negative: For cases where scores and ratings were not aligned.
+  
 This dual-layer categorization ensured that both text-based sentiment and numerical feedback were captured.
 
 #### 4. Creating Sentiment Buckets:
 The sentiment scores were further segmented into predefined ranges:
 
-Strongly Positive (0.5 to 1.0)
-Mildly Positive (0.0 to 0.49)
-Mildly Negative (-0.49 to 0.0)
-Strongly Negative (-1.0 to -0.5)
+- Strongly Positive (0.5 to 1.0)
+- Mildly Positive (0.0 to 0.49)
+- Mildly Negative (-0.49 to 0.0)
+- Strongly Negative (-1.0 to -0.5)
+  
 This step enabled easier visualization of sentiment trends and the distribution of customer emotions.
 
 #### 5. Data Export for Visualization:
@@ -90,6 +95,7 @@ This step enabled easier visualization of sentiment trends and the distribution 
 The enriched dataset, now including the sentiment scores, categories, and buckets, was exported to a CSV file (fact_customer_reviews_with_sentiment.csv). This prepared data was later integrated into Power BI dashboards for detailed visualizations and actionable insights.
 
 #### Outcome and Value Addition:
+
 The sentiment analysis revealed key customer pain points and areas of satisfaction, allowing for targeted marketing strategies and product enhancements. By combining text analysis with structured data, this step provided a holistic view of customer opinions, significantly boosting the depth of our insights.
 
-* This step demonstrated advanced technical expertise in text analytics, Python programming, and data enrichment, showcasing an ability to translate raw customer feedback into actionable business intelligence.*
+__This step demonstrated advanced technical expertise in text analytics, Python programming, and data enrichment, showcasing an ability to translate raw customer feedback into actionable business intelligence.__
