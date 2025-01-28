@@ -20,19 +20,19 @@ This project demonstrated expertise in integrating data analysis with real-world
 
 ### 1. Data Cleaning and Transformation for Actionable Insights using SQL.
 
-#### - Data Extraction and Preparation:
+#### -  Data Extraction and Preparation:
 The dataset, consisting of five key tables—Customer, Product, Customer Review, Customer Engagement, and Customer Journey—was extracted from a .bak file using Microsoft SQL Server. The raw data was cleaned, and SQL transformations were applied to ensure consistency and readiness for analysis.
 
-### - Customer Data Enrichment:
+### -  Customer Data Enrichment:
 A SQL query joined the Customer table with the Geography table, enriching customer profiles with geographic details such as country and city. This step provided deeper insights into customer demographics.
 
-### - Product Categorization:
+### -  Product Categorization:
 Products in the Product table were categorized into price segments—Low, Medium, and High—using a CASE statement. This segmentation allowed for better analysis of product performance across price ranges.
 
-### - Customer Review Standardization:
+### -  Customer Review Standardization:
 Review text from the Customer Review table was cleaned by standardizing whitespace, ensuring consistent and readable feedback data for sentiment analysis.
 
-### - Engagement Data Normalization:
+### -  Engagement Data Normalization:
 The Customer Engagement table was normalized by:
 
 - Cleaning content types (e.g., replacing "Socialmedia" with "Social Media").
