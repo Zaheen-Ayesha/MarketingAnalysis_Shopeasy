@@ -18,7 +18,7 @@ This project demonstrated expertise in integrating data analysis with real-world
 
 ### Steps Undertaken:
 
-### Step 1. Data Cleaning and Transformation for Actionable Insights using SQL.
+### Step 1: Data Cleaning and Transformation for Actionable Insights using SQL.
 
 #### 1. Data Extraction and Preparation:
 The dataset, consisting of five key tables—Customer, Product, Customer Review, Customer Engagement, and Customer Journey—was extracted from a .bak file using Microsoft SQL Server. The raw data was cleaned, and SQL transformations were applied to ensure consistency and readiness for analysis.
