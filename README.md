@@ -5,13 +5,13 @@ The primary objective of this project was to analyze and optimize ShopEasy's mar
 
 ### Goals:
 
-#### 1. Increase Conversion Rates:
-    Identify factors contributing to drop-offs in the conversion funnel and recommend strategies to improve customer conversion rates.
+### 1. Increase Conversion Rates:
+Identify factors contributing to drop-offs in the conversion funnel and recommend strategies to improve customer conversion rates.
 
-#### 2. Enhance Customer Engagement:
-    Analyze interaction levels with various marketing content types to inform content creation strategies that maximize engagement.
+### 2. Enhance Customer Engagement:
+Analyze interaction levels with various marketing content types to inform content creation strategies that maximize engagement.
 
-#### 3. Improve Customer Feedback Scores:
-    Understand recurring themes in customer reviews to identify customer pain points and areas for service improvement.
+### 3. Improve Customer Feedback Scores:
+Understand recurring themes in customer reviews to identify customer pain points and areas for service improvement.
 
 This project demonstrated expertise in integrating data analysis with real-world business problems, delivering impactful recommendations that align with horizontal goals.
