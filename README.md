@@ -136,3 +136,5 @@ The steps included:
 - Data analysis focused on customer sentiment, engagement metrics, and campaign performance, leading to actionable recommendations for strategic decisions
 
 ### Results
+
+[Download the PowerPoint file](https://github.com/Zaheen-Ayesha/MarketingAnalysis_Shopeasy/blob/605456e3d59d6798ad9d9cf9b38f9430108ab330/Shopeasy_Marketing_Analytics.pptx)
